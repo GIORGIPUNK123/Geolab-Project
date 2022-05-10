@@ -1,0 +1,16 @@
+.main-profile-part {
+  width: 75%;
+  height: 1000px;
+  background-color: rgb(221, 220, 220);
+  border-radius: 15px;
+}
+.profile-pic {
+  width: 260px;
+  aspect-ratio: 1;
+  background-color: #9b9898;
+  border-radius: 100%;
+  background-image: url(../img/default-profile.jpg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: 50% 30px;
+}

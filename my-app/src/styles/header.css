@@ -1,0 +1,75 @@
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 190px;
+  width: 75%;
+}
+.header-top-bar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+select {
+  border: none;
+  outline: none;
+  font-family: 'roboto';
+  cursor: pointer;
+  border-radius: 0px;
+}
+option {
+  border-radius: 0px;
+}
+.profile-img {
+  height: 15px;
+  width: 16px;
+  margin-right: 10px;
+}
+.header-cart {
+  margin: 0px 40px;
+}
+.header-right {
+  display: flex;
+  justify-content: space-between;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  margin-left: 15px;
+  height: 19px;
+  border: none;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+}
+.main-text {
+  margin-top: 52px;
+  font-size: 24px;
+  color: #ff4252;
+}
+.header-nav {
+  margin-top: 38px;
+  width: 600px;
+}
+.header-ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+.nav-li {
+  cursor: pointer;
+}
+.active-li {
+  color: #33a0ff;
+  border-bottom: 1.5px solid;
+}
+.register-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  width: 140px;
+}

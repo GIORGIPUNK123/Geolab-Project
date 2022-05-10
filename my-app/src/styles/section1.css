@@ -1,0 +1,46 @@
+.best-seller-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.best-seller {
+  margin-top: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1170px;
+  height: 100%;
+  margin-bottom: 150px;
+}
+.best-seller-nav {
+  margin-top: 30px;
+  margin-bottom: 26px;
+  width: 500px;
+}
+.best-seller-ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.best-seller-li {
+  cursor: pointer;
+  font-size: 14px;
+}
+.best-seller-text {
+  font-size: 30px;
+}
+.best-seller-shop {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px 30px;
+  width: 100%;
+}
+
+.shop-load-more {
+  cursor: pointer;
+  color: #33a0ff;
+  border-bottom: 4px #33a0ff solid;
+}
