@@ -18,5 +18,5 @@ src
 vite.config.js
 package.json
 package-lock.json
-index.html
+# index.html
 firebase-config
